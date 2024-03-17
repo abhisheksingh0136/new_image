@@ -43,7 +43,7 @@ def generate_content(image_data, mime_type, adjusted_prompt):
 
 # Main function for Streamlit app
 def main():
-    st.title("Imageers engage in multitasking with images, undertaking various tasks such as summarization, captioning, and analysis, as well as extracting data from images.")
+    st.text_area("Imageers engage in multitasking with images, undertaking various tasks such as summarization, captioning, and analysis, as well as extracting data from images.")
     st.title("🤖 Imageers 🤖")
 
 
