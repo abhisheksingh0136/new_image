@@ -45,7 +45,7 @@ def generate_content(image_data, mime_type, adjusted_prompt):
 def main():
     
     st.title("🤖 Imageers 🤖")
-    st.text_area("Imageers engage in multitasking with images, undertaking various tasks such as summarization, captioning, and analysis, as well as extracting data from images.")
+    st.subheader("Imageers engage in multitasking with images, undertaking various tasks such as summarization, captioning, and analysis, as well as extracting data from images.")
 
     # Upload image
     uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
