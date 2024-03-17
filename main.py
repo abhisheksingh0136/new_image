@@ -95,7 +95,7 @@ def main():
                 If the image contains a large amount of tabular data, ensure that all of it is extracted."""
         caption1 = "please generate the caption in short."
         caption2 = "Please create a very short caption."
-        analysis = "do analysis of the image."
+        analysis = "do analysis of the image in english language."
         summary = "generate the summary of the image."
         #additional_prompt_3 = """Summarize the key points from the image."""
         #additional_prompt_4 = """Provide detailed insights based on the image."""
