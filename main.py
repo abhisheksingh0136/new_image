@@ -6,7 +6,7 @@ import os
 
 # Load environment variables from .env file
 #load_dotenv()
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAlTWi9dJQPlXKR9BC9gZ8Ac37VXp4fCwE"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCUoCdgMITG4uss5LW2DoZpCDZZM8SqWTE"
 
 # Configuration
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
